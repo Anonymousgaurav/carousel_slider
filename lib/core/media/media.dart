@@ -30,6 +30,8 @@ class Images {
 class Videos {
   Videos._();
 
-  static const MediaAssets bear =
-      MediaAssets("bear", asset: AssetEnum.videos, type: TypeFile.mp4);
+  static const MediaAssets scene =
+      MediaAssets("scene", asset: AssetEnum.videos, type: TypeFile.mp4);
+  static const MediaAssets coding =
+      MediaAssets("coding", asset: AssetEnum.videos, type: TypeFile.mp4);
 }

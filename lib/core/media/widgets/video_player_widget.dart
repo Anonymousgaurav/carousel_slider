@@ -32,15 +32,12 @@ class _VideoPlayerWidgetState extends State<VideoPlayerWidget> {
     return Stack(
       children: [
         SizedBox.expand(
-          child: Container(
-            color: Colors.green,
-            child: FittedBox(
-              fit: BoxFit.fill,
-              child: SizedBox(
-                width: _controller.value.size.width,
-                height: _controller.value.size.height,
-                child: VideoPlayer(_controller),
-              ),
+          child: FittedBox(
+            fit: BoxFit.fill,
+            child: SizedBox(
+              width: _controller.value.size.width,
+              height: _controller.value.size.height,
+              child: VideoPlayer(_controller),
             ),
           ),
         ),

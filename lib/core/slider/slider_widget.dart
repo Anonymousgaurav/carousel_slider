@@ -56,7 +56,7 @@ class _SliderWidgetState extends State<SliderWidget>
                             controller.pause();
                           }
                         },
-                        media: Videos.bear,
+                        media: slider.assets,
                         isLooping: true),
                   ),
                 );

@@ -24,7 +24,7 @@ class _HomePageScreenState extends State<HomePageScreen> {
                 "Lorem Ipsum has been the industry's standard"
                 "scrambled it to make a type specimen book."),
         SlideModel(
-            assets: Videos.bear,
+            assets: Videos.coding,
             name: "Write your Card",
             description: "Lorem Ipsum is simply dummy text of "
                 "the printing and typesetting industry. "
@@ -38,7 +38,7 @@ class _HomePageScreenState extends State<HomePageScreen> {
                 "Lorem Ipsum has been the industry's standard"
                 "scrambled it to make a type specimen book."),
         SlideModel(
-            assets: Videos.bear,
+            assets: Videos.scene,
             name: "Write your Card",
             description: "Lorem Ipsum is simply dummy text of "
                 "the printing and typesetting industry. "
